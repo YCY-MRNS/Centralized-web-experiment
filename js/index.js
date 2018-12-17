@@ -8,7 +8,6 @@ window.onload = function () {
     var login_box = document.getElementsByClassName('login-box');
     var banner_all = document.getElementById('banner');
     var banner_index = document.getElementById('banner-index').getElementsByTagName('span');
-    var show_list_content = document.getElementsByClassName('show-list-content');
     var catalog_list = document.getElementById('catalog-list').getElementsByTagName('li');
 
     var timer;
@@ -87,24 +86,22 @@ window.onload = function () {
 
     play();
 
+    
     for (var a = 0; a < catalog_list.length; a++) {
-
-        catalog_list[a].onmouseover = function () {
-            for (var i = 0; i < show_list_content.length; i++) {
-                if (show_list_content[i] = this) {
-                    show_list_content[i].style.display = 'block';
-                }
+        catalog_list[a].onmouseover = function (arg) {
+            return function () {
+                catalog_list[arg].className = 'lihover';
             }
-        };
+        }(a);
 
-        catalog_list[a].onmouseout = function () {
-            for (var i = 0; i < show_list_content.length; i++) {
-                if (show_list_content[i] = this) {
-                    show_list_content[i].style.display = 'none';
-                }
+        catalog_list[a].onmouseout = function (arg) {
+            return function () {
+                catalog_list[arg].className = '';
             }
-        };
+        }(a);
+
     }
+
 
 };
 
