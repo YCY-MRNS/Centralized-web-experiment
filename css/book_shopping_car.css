@@ -5,25 +5,98 @@
 }
 
 .title, .content {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
-
 
 .title span:first-child {
     margin-right: 60px;
 }
 
 .title span:nth-child(2) {
-    margin-right: 150px;
+    margin-right: 250px;
 }
 
+.title span:nth-child(3) {
+    margin-right: 160px;
+}
 
+.title span:nth-child(4),
+.title span:nth-child(5),
+.title span:nth-child(6) {
+    margin-right: 80px;
+}
 
 .hr {
     background: #e1e1e1;
-    width: 100%;
+    width: 1000px;
     height: 1px;
-    margin: 20px 0;
-    clear: both;
+    margin: 20px auto;
+    /*clear: both;*/
+}
+
+.chooseBook1 a {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f2f1ea;
+    border: 1px solid #e1e1e1;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 12px;
+}
+
+h4 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+p {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.chooseBookContent {
+    width: 1000px;
+    height: 120px;
+}
+
+.chooseBookContent input {
+    vertical-align: middle;
+}
+
+.chooseBookContent img {
+    vertical-align: middle;
+    height: 90%;
+    margin-right: 160px;
+}
+
+.cash {
+    width: 1000px;
+    height: 50px;
+    background-color: #f2f1ea;
+    margin: 20px auto;
+}
+
+.cash a {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #7B111B;
+    float: right;
+}
+
+h3 {
+    display: none;
+    float: right;
+    height: 50px;
+    margin-right: 10px;
+    line-height: 50px;
+    color: #7B111B;
 }
