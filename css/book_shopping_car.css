@@ -1,0 +1,29 @@
+#shopping-car {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title, .content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.title span:first-child {
+    margin-right: 60px;
+}
+
+.title span:nth-child(2) {
+    margin-right: 150px;
+}
+
+
+
+.hr {
+    background: #e1e1e1;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+    clear: both;
+}

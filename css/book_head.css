@@ -1,0 +1,18 @@
+#head {
+    height: 60px;
+}
+
+#head .nav_box .pull-left li {
+    float: left;
+    margin-right: 32px;
+    padding: 0 15px;
+    font-size: 16px;
+    height: 58px;
+    line-height: 58px;
+    color: #f2f1ea;
+}
+
+#head .nav_box .pull-left li a {
+    text-decoration: none;
+    color: #000;
+}
