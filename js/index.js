@@ -86,7 +86,7 @@ window.onload = function () {
 
     play();
 
-    
+
     for (var a = 0; a < catalog_list.length; a++) {
         catalog_list[a].onmouseover = function (arg) {
             return function () {
@@ -106,9 +106,9 @@ window.onload = function () {
 };
 
 function href_login() {
-    alert('href_login');
+    window.location.href = "html/login.html";
 }
 
 function href_register() {
-    alert('href_register');
+    window.location.href = "html/register.html";
 }
