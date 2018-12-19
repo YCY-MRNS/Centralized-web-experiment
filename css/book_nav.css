@@ -50,16 +50,39 @@
 #navHeader .login-box {
     position: absolute;
     width: 135px;
-    height: 80px;
+    height: auto;
     padding: 20px 16px 14px;
     background-color: #fff;
-    border: 1px solid #8c222c;
+    border: 1px solid #e1e1e1;
     text-align: center;
     display: none;
     z-index: 99;
 }
 
-.login-btn, .register-btn {
+#navHeader .login-box p {
+    color: #a9a;
+    margin-bottom: 5px;
+}
+
+#navHeader .login-box img {
+    width: 24%;
+}
+
+.register-btn {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    color: #8c222c;
+    background-color: #F8F7F3;
+    cursor: pointer;
+}
+
+.login-btn {
     display: inline-block;
     width: 130px;
     height: 30px;

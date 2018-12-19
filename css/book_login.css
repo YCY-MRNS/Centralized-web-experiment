@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f1ea;
+}
+
+#login-box {
+    height: 300px;
+    width: 300px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    color: #666666;
+}
+
+.title span {
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.in input {
+    border: 1px solid #f2f1ea;
+    height: 40px;
+    width: 280px;
+    padding-left: 20px;
+}
+
+.in {
+    width: 300px;
+    height: 80px;
+    margin: 20px auto;
+    text-align: center;
+    background: #000;
+}
+
+.hint {
+    height: 22px;
+    line-height: 22px;
+}
+
+.hint span {
+    color: #666666;
+    font-size: 14px;
+}
+
+.hint a {
+    float: right;
+    color: #666666;
+}
+
+.hint a:hover {
+    color: #8c222c;
+}
+
+.commit {
+    margin-top: 20px;
+}
+
+.commit a {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: #8c222c;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.sanFang {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.sanFang img {
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.sanFang a {
+    color: #C28F42;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#btn-checked {
+    cursor: pointer;
+}
+
+#input-checked {
+    vertical-align: middle;
+}

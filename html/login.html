@@ -4,86 +4,9 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="../css/book_nav.css">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            text-decoration: none;
-        }
+    <link rel="stylesheet" href="../css/book_login.css">
+    <script src="../js/login.js"></script>
 
-        body {
-            background-color: #f2f1ea;
-        }
-
-        #login-box {
-            height: 300px;
-            width: 300px;
-            margin: 80px auto;
-            padding: 30px;
-            background-color: #ffffff;
-            border: 1px solid #e1e1e1;
-            position: relative;
-        }
-
-        h1 {
-            display: inline-block;
-            color: #666666;
-        }
-
-        .title span {
-            color: rgba(0, 0, 0, .5);
-            font-size: 14px;
-            position: absolute;
-            right: 30px;
-            top: 50px;
-        }
-
-        .in input {
-            border: 1px solid #f2f1ea;
-            height: 40px;
-            width: 280px;
-            padding-left: 20px;
-        }
-
-        .in {
-            width: 300px;
-            height: 80px;
-            margin: 20px auto;
-            text-align: center;
-            background: #000;
-        }
-
-        .hint span {
-            color: #666666;
-        }
-
-        .hint a {
-            float: right;
-            color: #666666;
-        }
-
-        .hint a:hover {
-            color: #8c222c;
-        }
-
-        .commit {
-            margin-top: 20px;
-        }
-
-        .commit a {
-            display: inline-block;
-            width: 300px;
-            height: 50px;
-            background-color: #8c222c;
-            color: #ffffff;
-            border-radius: 5px;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-        }
-
-    </style>
 </head>
 <body>
 
@@ -105,13 +28,22 @@
         <input type="text" placeholder="用户/手机号/邮箱"><input type="password" placeholder="密码">
     </div>
     <div class="hint">
-        <input type="checkbox"><span>下次自动登录</span>
+        <input id="input-checked" type="checkbox"><span id="btn-checked">下次自动登录</span>
         <span><a href="">忘记密码</a></span>
     </div>
 
     <div class="commit">
         <a href="../index.html">登录</a>
     </div>
+
+    <div class="sanFang">
+        <img src="../images/qq2.png" alt="">
+        <img src="../images/weixin2.png" alt="">
+        <img src="../images/wb2.png" alt="">
+        <span style="color: #666666">|</span>
+        <a href="">立即注册</a>
+    </div>
+
 </div>
 </body>
 </html>
