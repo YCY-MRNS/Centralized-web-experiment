@@ -102,6 +102,11 @@ window.onload = function () {
 
     }
 
+    banner_all.onclick = function () {
+        window.location.href = "html/person.html"
+
+    }
+
 
 };
 
