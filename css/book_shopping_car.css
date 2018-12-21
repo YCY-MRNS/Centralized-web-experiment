@@ -23,8 +23,9 @@
 
 .title span:nth-child(4),
 .title span:nth-child(5),
+.title span:nth-child(7),
 .title span:nth-child(6) {
-    margin-right: 80px;
+    margin-right: 70px;
 }
 
 .hr {
@@ -35,7 +36,21 @@
     /*clear: both;*/
 }
 
-.chooseBook1 a {
+.book-delete {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #8c222c;
+    border: 1px solid #e1e1e1;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.chooseBook1 .chooseBookTitle a {
     display: inline-block;
     height: 20px;
     width: 70px;
