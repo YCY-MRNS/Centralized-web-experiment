@@ -7,7 +7,7 @@
 
 #content, #footer-box, #head, .nav {
     width: 1200px;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@
     border-top: 1px solid #e5e5e5
 }
 
-.footer-wrap a{
+.footer-wrap a {
     color: #333333;
 }
 

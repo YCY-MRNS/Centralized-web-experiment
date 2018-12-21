@@ -4,87 +4,8 @@
     <meta charset="UTF-8">
     <title>web集中实验-注册</title>
     <link rel="stylesheet" href="../css/book_nav.css">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            text-decoration: none;
-        }
-
-        body {
-            background-color: #f2f1ea;
-        }
-
-        #login-box {
-            height: auto;
-            width: 300px;
-            margin: 80px auto;
-            padding: 30px;
-            background-color: #ffffff;
-            border: 1px solid #e1e1e1;
-            position: relative;
-        }
-
-        h1 {
-            display: inline-block;
-            color: #666666;
-        }
-
-        .title span {
-            color: rgba(0, 0, 0, .5);
-            font-size: 14px;
-            position: absolute;
-            right: 30px;
-            top: 50px;
-        }
-
-        .in input {
-            border: 1px solid #f2f1ea;
-            height: 40px;
-            width: 280px;
-            padding-left: 20px;
-        }
-
-        .in {
-            width: 300px;
-            height: auto;
-            margin: 20px auto;
-            text-align: center;
-            background: #000;
-        }
-
-        .hint span {
-            color: #666666;
-            font-size: 12px;
-        }
-
-        .hint a {
-            float: right;
-            color: #666666;
-        }
-
-        .hint a:hover {
-            color: #8c222c;
-        }
-
-        .commit {
-            margin-top: 20px;
-        }
-
-        .commit a {
-            display: inline-block;
-            width: 300px;
-            height: 50px;
-            background-color: #8c222c;
-            color: #ffffff;
-            border-radius: 5px;
-            text-align: center;
-            line-height: 50px;
-            font-size: 20px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="../css/book_register.css">
+    <script src="../js/register.js"></script>
 </head>
 <body>
 
@@ -103,16 +24,16 @@
         <span>快速登录</span>
     </div>
     <div class="in">
-        <input type="text" placeholder="手机号">
-        <input type="password" placeholder="短信验证码">
-        <input type="password" placeholder="用户名">
+        <input type="number" placeholder="手机号">
+        <input type="text" placeholder="短信验证码">
+        <input type="text" placeholder="用户名">
         <input type="password" placeholder="设置密码">
     </div>
     <div class="hint">
         <label>
-            <input type="checkbox">
+            <input id="input-checked" type="checkbox">
         </label>
-        <span>我已阅读并接受孔网 《服务协议》和 《账户协议》</span>
+        <span id="btn-checked">我已阅读并接受孔网 《服务协议》和 《账户协议》</span>
     </div>
     <div class="commit">
         <a href="../index.html">注册</a>

@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f1ea;
+}
+
+#login-box {
+    height: auto;
+    width: 300px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    color: #666666;
+}
+
+.title span {
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.in input {
+    border: 1px solid #f2f1ea;
+    height: 40px;
+    width: 280px;
+    padding-left: 20px;
+}
+
+.in {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    background: #000;
+}
+
+.hint span {
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hint a {
+    float: right;
+    color: #666666;
+}
+
+.hint a:hover {
+    color: #8c222c;
+}
+
+.commit {
+    margin-top: 20px;
+}
+
+.commit a {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: #8c222c;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}

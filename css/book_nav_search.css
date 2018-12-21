@@ -22,6 +22,10 @@
     float: right;
 }
 
+.search-bottom {
+    margin-left: 15px;
+    cursor: pointer;
+}
 
 .search-bottom .search-content {
     font-size: 12px;
