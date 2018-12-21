@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f271e3a-0094-46ec-85e8-b1aa1c53b4bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/book_content2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/book_content2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/shoppingCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/shoppingCar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner3.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -153,8 +149,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="541" column="53" lean-forward="true" selection-start-line="541" selection-start-column="53" selection-end-line="541" selection-end-column="53" />
+                <state relative-caret-position="437">
+                  <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -182,8 +178,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/book_content2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+                <state relative-caret-position="241">
+                  <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -399,12 +395,12 @@
       <workItem from="1545283217465" duration="254000" />
       <workItem from="1545283778429" duration="255000" />
       <workItem from="1545375590972" duration="1605000" />
-      <workItem from="1545377749723" duration="6410000" />
+      <workItem from="1545377749723" duration="7052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92210000" />
+    <option name="totallyTimeSpent" value="92852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -577,15 +573,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/book_content2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="241">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="541" column="53" lean-forward="true" selection-start-line="541" selection-start-column="53" selection-end-line="541" selection-end-column="53" />
+        <state relative-caret-position="437">
+          <caret line="126" column="6" lean-forward="true" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
