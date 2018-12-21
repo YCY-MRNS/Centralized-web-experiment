@@ -22,6 +22,13 @@
     float: right;
 }
 
+
+.search-bottom .search-content {
+    font-size: 12px;
+    color: #8c222c;
+    margin-right: 10px;
+}
+
 #head-search .input-search .input-box {
     width: 620px;
     height: 35px;
