@@ -31,30 +31,38 @@ window.onload = function () {
                 break;
             }
         }
-        banner_index[index - 1].className = 'banner-index-show';
+        banner_index[index].className = 'banner-index-show';
     }
 
     //移动的banner距离
     function move(offset) {
-        var distance = parseInt(banner_all.style.left) + offset;
-        banner_all.style.left = offset + 'px';
+        addAnimate();
+        var distance = offset * (-1015);
+        banner_all.style.left = distance + 'px';
+    }
+
+    //添加css3动画
+    function addAnimate() {
+        banner_all.style.transition = "all 1s";
+        banner_all.style.webkitTransition = "all 1s";
+        banner_all.style.mozTransition = "all 1s";
+        banner_all.style.oTransition = "all 1s";
     }
 
     //banner 下方btn的鼠标经过事件
-    for (var j = 0; j < banner_index.length; j++) {
+    for (let j = 0; j < banner_index.length; j++) {
         banner_index[j].onmouseover = function () {
-            var index = parseInt(this.getAttribute('index'));
-            var offset = (index - 1) * (-1015);
-            move(offset);
-            showBtn(index);
+            count = j;
+            move(j);
+            showBtn(j);
             stop();
         }
     }
 
     //banner 下方btn的鼠标移出事件
-    for (var k = 0; k < banner_index.length; k++) {
+    for (let k = 0; k < banner_index.length; k++) {
         banner_index[k].onmouseout = function () {
-            count = parseInt(this.getAttribute('index')) - 1;
+            count = k;
             play();
         }
     }
@@ -63,8 +71,8 @@ window.onload = function () {
     function play() {
         timer = setInterval(function () {
             if (count === 6) count = 0;
-            move(count * (-1015));
-            showBtn(count + 1);
+            move(count);
+            showBtn(count);
             count++;
         }, 2000);
     }
