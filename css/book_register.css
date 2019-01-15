@@ -9,7 +9,7 @@ body {
     background-color: #f2f1ea;
 }
 
-#login-box {
+#signUpAll {
     height: auto;
     width: 300px;
     margin: 80px auto;
@@ -32,48 +32,58 @@ h1 {
     top: 50px;
 }
 
-.in input {
-    border: 1px solid #f2f1ea;
-    height: 40px;
+.signUpBox .hint-error {
+    margin: 5px 0 5px 0;
+    color: rgba(140, 34, 44, 0.9);
+}
+
+.from-group {
+    color: #666666;
+    position: relative;
+}
+
+.success {
+    border: 1px solid rgba(152, 251, 152, 0.7);
+}
+
+.fa-check {
+    position: absolute;
+    bottom: 16px;
+    right: -5px;
+    color: rgba(152, 251, 152, 1);
+}
+
+.error {
+    border: 1px solid rgba(140, 34, 44, 0.7);
+}
+
+input {
+    border: 1px solid #e1e1e1;
+}
+
+.signUpBox input {
+    height: 35px;
     width: 280px;
-    padding-left: 20px;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 3px;
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
 }
 
-.in {
+.signUpBox {
     width: 300px;
-    height: auto;
     margin: 20px auto;
-    text-align: center;
-    background: #000;
-}
-
-.hint span {
-    color: #666666;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-.hint a {
-    float: right;
-    color: #666666;
-}
-
-.hint a:hover {
-    color: #8c222c;
 }
 
 .commit {
-    margin-top: 20px;
-}
-
-.commit a {
     display: inline-block;
     width: 300px;
-    height: 50px;
+    height: 55px;
+    margin-top: 20px;
     background-color: #8c222c;
     color: #ffffff;
     border-radius: 5px;
     text-align: center;
-    line-height: 50px;
     font-size: 20px;
 }

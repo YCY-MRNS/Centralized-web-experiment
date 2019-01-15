@@ -9,7 +9,7 @@ body {
     background-color: #f2f1ea;
 }
 
-#login-box {
+#signUpAll {
     height: 300px;
     width: 300px;
     margin: 80px auto;
@@ -32,14 +32,14 @@ h1 {
     top: 50px;
 }
 
-.in input {
+.signUpBox input {
     border: 1px solid #f2f1ea;
     height: 40px;
     width: 280px;
     padding-left: 20px;
 }
 
-.in {
+.signUpBox {
     width: 300px;
     height: 80px;
     margin: 20px auto;
